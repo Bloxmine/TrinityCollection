@@ -1,0 +1,128 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 620
+	y: 540
+	w: 220
+	h: 180
+	
+	theme file: calendar-widget.py
+	interval: 3600000
+	
+	text {
+		x: 10
+		y: 10
+		w: 200
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "January 2024"
+		name: month_year
+		alignment: center
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 200
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 200,200,200
+		value: "Su Mo Tu We Th Fr Sa"
+		name: day_headers
+		alignment: center
+	}
+	
+	text {
+		x: 10
+		y: 55
+		w: 200
+		h: 12
+		font: Arial
+		fontsize: 9
+		color: 180,180,180
+		value: " 1  2  3  4  5  6  7"
+		name: week1
+	}
+	
+	text {
+		x: 10
+		y: 70
+		w: 200
+		h: 12
+		font: Arial
+		fontsize: 9
+		color: 180,180,180
+		value: " 8  9 10 11 12 13 14"
+		name: week2
+	}
+	
+	text {
+		x: 10
+		y: 85
+		w: 200
+		h: 12
+		font: Arial
+		fontsize: 9
+		color: 180,180,180  
+		value: "15 16 17 18 19 20 21"
+		name: week3
+	}
+	
+	text {
+		x: 10
+		y: 100
+		w: 200
+		h: 12
+		font: Arial
+		fontsize: 9
+		color: 180,180,180
+		value: "22 23 24 25 26 27 28"
+		name: week4
+	}
+	
+	text {
+		x: 10
+		y: 115
+		w: 200
+		h: 12
+		font: Arial
+		fontsize: 9
+		color: 180,180,180
+		value: "29 30 31  -  -  -  -"
+		name: week5
+	}
+	
+	text {
+		x: 10
+		y: 140
+		w: 200
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 255,200,100
+		value: "Today: Monday, Jan 1"
+		name: today_display
+		alignment: center
+	}
+	
+	text {
+		x: 10
+		y: 160
+		w: 200
+		h: 12
+		font: Arial
+		fontsize: 9
+		color: 150,150,150
+		value: "Click to refresh"
+		name: status_line
+		alignment: center
+	}
+}

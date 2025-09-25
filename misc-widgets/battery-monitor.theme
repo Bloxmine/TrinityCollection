@@ -1,0 +1,63 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 400
+	y: 540
+	w: 200
+	h: 100
+	
+	theme file: battery-monitor.py
+	interval: 30000
+	
+	text {
+		x: 10
+		y: 10
+		w: 180
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "Battery Status"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 180
+		h: 18
+		font: Arial
+		fontsize: 12
+		color: 100,255,100
+		value: "🔋 100% Charged"
+		name: battery_status
+	}
+	
+	bar {
+		x: 10
+		y: 58
+		w: 180
+		h: 15
+		min: 0
+		max: 100
+		value: 100
+		name: battery_bar
+		color: 0,255,0
+	}
+	
+	text {
+		x: 10
+		y: 78
+		w: 180
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 200,200,200
+		value: "AC Power Connected"
+		name: power_status
+	}
+}

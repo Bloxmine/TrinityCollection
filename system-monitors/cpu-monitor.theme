@@ -1,0 +1,74 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 50
+	y: 50
+	w: 200
+	h: 120
+	
+	theme file: cpu-monitor.py
+	
+	text {
+		x: 10
+		y: 10
+		w: 180
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "CPU Monitor"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 180
+		h: 15
+		font: Arial
+		fontsize: 12
+		color: 200,200,200
+		value: "CPU Usage: 0%"
+		name: cpu_usage
+	}
+	
+	text {
+		x: 10
+		y: 55
+		w: 180
+		h: 15
+		font: Arial
+		fontsize: 12
+		color: 200,200,200
+		value: "Load Average: 0.00"
+		name: load_avg
+	}
+	
+	bar {
+		x: 10
+		y: 75
+		w: 180
+		h: 15
+		min: 0
+		max: 100
+		value: 0
+		name: cpu_bar
+		color: 0,255,0
+	}
+	
+	text {
+		x: 10
+		y: 95
+		w: 180
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 150,150,150
+		value: "Updated: Never"
+		name: last_update
+	}
+}

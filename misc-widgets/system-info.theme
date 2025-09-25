@@ -1,0 +1,123 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 400
+	y: 320
+	w: 280
+	h: 200
+	
+	theme file: system-info.py
+	interval: 5000
+	
+	text {
+		x: 10
+		y: 10
+		w: 260
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "System Information"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,255,200
+		value: "Hostname: localhost"
+		name: hostname_display
+	}
+	
+	text {
+		x: 10
+		y: 55
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,255,200
+		value: "Kernel: Linux"
+		name: kernel_display
+	}
+	
+	text {
+		x: 10
+		y: 75
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 255,200,200
+		value: "Uptime: 0 days, 0:00"
+		name: uptime_display
+	}
+	
+	text {
+		x: 10
+		y: 95
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,200,255
+		value: "Processes: 0"
+		name: processes_display
+	}
+	
+	text {
+		x: 10
+		y: 115
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 255,255,200
+		value: "Users: 0"
+		name: users_display
+	}
+	
+	text {
+		x: 10
+		y: 135
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 255,200,255
+		value: "Architecture: x86_64"
+		name: arch_display
+	}
+	
+	text {
+		x: 10
+		y: 155
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,255,255
+		value: "Desktop: Trinity"
+		name: desktop_display
+	}
+	
+	text {
+		x: 10
+		y: 175
+		w: 260
+		h: 15
+		font: Arial
+		fontsize: 9
+		color: 150,150,150
+		value: "Last updated: Never"
+		name: last_update
+	}
+}
