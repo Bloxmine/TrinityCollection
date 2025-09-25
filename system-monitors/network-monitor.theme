@@ -1,0 +1,98 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 520
+	y: 50
+	w: 250
+	h: 160
+	
+	theme file: network-monitor.py
+	
+	text {
+		x: 10
+		y: 10
+		w: 230
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "Network Monitor"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 230
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,200,200
+		value: "Interface: eth0"
+		name: interface_name
+	}
+	
+	text {
+		x: 10
+		y: 55
+		w: 230
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 100,255,100
+		value: "▲ Upload: 0.0 KB/s"
+		name: upload_speed
+	}
+	
+	text {
+		x: 10
+		y: 75
+		w: 230
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 100,150,255
+		value: "▼ Download: 0.0 KB/s"
+		name: download_speed
+	}
+	
+	text {
+		x: 10
+		y: 95
+		w: 230
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 180,180,180
+		value: "Total Up: 0.0 MB"
+		name: total_upload
+	}
+	
+	text {
+		x: 10
+		y: 115
+		w: 230
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 180,180,180
+		value: "Total Down: 0.0 MB"
+		name: total_download
+	}
+	
+	text {
+		x: 10
+		y: 135
+		w: 230
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 150,150,150
+		value: "Updated: Never"
+		name: last_update
+	}
+}

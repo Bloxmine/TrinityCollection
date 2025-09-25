@@ -1,0 +1,136 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 50
+	y: 320
+	w: 300
+	h: 180
+	
+	theme file: weather-widget.py
+	interval: 300000
+	
+	text {
+		x: 10
+		y: 10
+		w: 280
+		h: 20
+		font: Arial
+		fontsize: 16
+		color: 255,255,255
+		shadow: 1
+		value: "Weather Information"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 280
+		h: 18
+		font: Arial
+		fontsize: 12
+		color: 200,220,255
+		value: "Location: Not Set"
+		name: location_display
+	}
+	
+	text {
+		x: 10
+		y: 55
+		w: 140
+		h: 25
+		font: Arial
+		fontsize: 18
+		color: 255,200,100
+		shadow: 1
+		value: "-- °C"
+		name: temperature_display
+	}
+	
+	text {
+		x: 160
+		y: 55
+		w: 130
+		h: 18
+		font: Arial
+		fontsize: 12
+		color: 150,255,150
+		value: "Clear"
+		name: condition_display
+	}
+	
+	text {
+		x: 10
+		y: 85
+		w: 140
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 180,180,255
+		value: "Humidity: --%"
+		name: humidity_display
+	}
+	
+	text {
+		x: 160
+		y: 85
+		w: 130
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 180,180,255
+		value: "Wind: -- km/h"
+		name: wind_display
+	}
+	
+	text {
+		x: 10
+		y: 105
+		w: 140
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 180,180,255
+		value: "Pressure: -- hPa"
+		name: pressure_display
+	}
+	
+	text {
+		x: 160
+		y: 105
+		w: 130
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 180,180,255
+		value: "Visibility: -- km"
+		name: visibility_display
+	}
+	
+	text {
+		x: 10
+		y: 130
+		w: 280
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 255,255,100
+		value: "Today: Sunny with clouds"
+		name: forecast_display
+	}
+	
+	text {
+		x: 10
+		y: 150
+		w: 280
+		h: 15
+		font: Arial
+		fontsize: 9
+		color: 150,150,150
+		value: "Last updated: Never"
+		name: last_update
+	}
+}

@@ -1,0 +1,64 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 780
+	y: 50
+	w: 180
+	h: 120
+	
+	theme file: temperature-monitor.py
+	interval: 3000
+	
+	text {
+		x: 10
+		y: 10
+		w: 160
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "Temperature"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 160
+		h: 25
+		font: Arial
+		fontsize: 18
+		color: 100,255,100
+		shadow: 1
+		value: "-- °C"
+		name: cpu_temp
+	}
+	
+	bar {
+		x: 10
+		y: 65
+		w: 160
+		h: 15
+		min: 0
+		max: 100
+		value: 0
+		name: temp_bar
+		color: 0,255,0
+	}
+	
+	text {
+		x: 10
+		y: 85
+		w: 160
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 200,200,200
+		value: "Status: Normal"
+		name: temp_status
+	}
+}

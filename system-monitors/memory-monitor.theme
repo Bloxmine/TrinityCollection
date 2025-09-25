@@ -1,0 +1,86 @@
+karamba:theme
+{
+	layer: onbottom
+	hidden: false
+	locked: false
+	ontop: false
+	sticky: false
+	x: 280
+	y: 50
+	w: 220
+	h: 140
+	
+	theme file: memory-monitor.py
+	
+	text {
+		x: 10
+		y: 10
+		w: 200
+		h: 20
+		font: Arial
+		fontsize: 14
+		color: 255,255,255
+		shadow: 1
+		value: "Memory Monitor"
+	}
+	
+	text {
+		x: 10
+		y: 35
+		w: 200
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,200,200
+		value: "RAM: 0MB / 0MB (0%)"
+		name: ram_usage
+	}
+	
+	bar {
+		x: 10
+		y: 55
+		w: 200
+		h: 12
+		min: 0
+		max: 100
+		value: 0
+		name: ram_bar
+		color: 0,150,255
+	}
+	
+	text {
+		x: 10
+		y: 75
+		w: 200
+		h: 15
+		font: Arial
+		fontsize: 11
+		color: 200,200,200
+		value: "Swap: 0MB / 0MB (0%)"
+		name: swap_usage
+	}
+	
+	bar {
+		x: 10
+		y: 95
+		w: 200
+		h: 12
+		min: 0
+		max: 100
+		value: 0
+		name: swap_bar
+		color: 255,150,0
+	}
+	
+	text {
+		x: 10
+		y: 115
+		w: 200
+		h: 15
+		font: Arial
+		fontsize: 10
+		color: 150,150,150
+		value: "Updated: Never"
+		name: last_update
+	}
+}
